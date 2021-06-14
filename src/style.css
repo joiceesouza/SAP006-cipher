@@ -1,1 +1,14 @@
-/* css */
+body{background-color: #D9D9D9; color: #014C78; position: center; text-align: center; font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+
+
+form{  margin: 50px; background-color: #00C5D4; padding: 25px; width: 25%; border: 1px solid black; position: relative; display: inline-block;
+}
+input { color: #F26E11; left: 45px; height: 25px; margin: 5px; border: 1px solid black; cursor: pointer; 
+}
+form encerramento{  margin: 50px; background-color: #00C5D4; padding: 25px; width: 25%; border: 1px solid black;
+}
