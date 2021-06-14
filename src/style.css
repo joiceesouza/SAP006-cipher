@@ -8,7 +8,7 @@ body{background-color: #D9D9D9; color: #014C78; position: center; text-align: ce
 
 form{  margin: 50px; background-color: #00C5D4; padding: 25px; width: 25%; border: 1px solid black; position: relative; display: inline-block;
 }
-input { color: #F26E11; left: 45px; height: 25px; margin: 5px; border: 1px solid black; cursor: pointer; 
+input { color: #F26E11; left: 45px; height: 25px; margin: 5px; border: 1px solid black; cursor: pointer; font-size: medium;
 }
 form encerramento{  margin: 50px; background-color: #00C5D4; padding: 25px; width: 25%; border: 1px solid black;
 }

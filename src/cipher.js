@@ -1,4 +1,4 @@
-const cipher = {Cifra:function (senhaString, deslocamento) {
+const cipher = {encode:function (senhaString, deslocamento) {
         let novaSenha = '', cript
         for (let i = 0; i < senhaString.length; i++) {
             if (senhaString.charCodeAt(i) >= 65 && senhaString.charCodeAt(i)<= 90){
@@ -13,7 +13,7 @@ const cipher = {Cifra:function (senhaString, deslocamento) {
         }
     return novaSenha
 },
-    Decode:function (senhaString2, deslocamento2){
+    decode:function (senhaString2, deslocamento2){
         let novaSenha2 = '', cript2
     for (let i = 0; i < senhaString2.length; i++) {
         if (senhaString2.charCodeAt(i) >= 65 && senhaString2.charCodeAt(i)<= 90){
