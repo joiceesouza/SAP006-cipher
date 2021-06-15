@@ -1,4 +1,4 @@
-Senha segura
+Senha Segura
 
 O site senha segura foi criado devido ao crescente aumento de roubo de dados através da internet, no ano de 2019 senhas roubadas pela internet teve um aumento de 60% e desde então esse número não para de crescer.
 Pensamos nisso criamos um site de criptografia, no qual o usuario define por quantas letras deseja deslocar e assim criptografa sua senha através da Cifra de César, podendo também voltar a senha original através da opção "Descriptografar".
