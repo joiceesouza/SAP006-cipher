@@ -10,5 +10,7 @@ form{  margin: 50px; background-color: #00C5D4; padding: 25px; width: 25%; borde
 }
 input { color: #F26E11; left: 45px; height: 25px; margin: 5px; border: 1px solid black; cursor: pointer; font-size: medium;
 }
-form encerramento{  margin: 50px; background-color: #00C5D4; padding: 25px; width: 25%; border: 1px solid black;
+#resultado1 {
+    font-size: 25pt;
+    color: #F26E11;
 }

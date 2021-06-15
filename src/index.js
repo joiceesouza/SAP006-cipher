@@ -3,6 +3,7 @@ let senhaString = document.getElementById("senha1")
 let deslocamento = document.getElementById("desloc")
 let encodeText = document.getElementById("resultado1")
 let button = document.getElementById("btnCrip")
+let button2 = document.getElementById("btnCrip2")
 let crypt = ''
 let offset = ''
 senhaString.addEventListener('keyup', function(event) {
@@ -13,28 +14,18 @@ deslocamento.addEventListener('keyup', function(event) {
 } )
 
 function button1(){ 
-    let msgCifra = cipher.encode(crypt, offset);
+    let msgCifra = cipher.encode(offset, crypt);
     encodeText.innerHTML = msgCifra
 }
 
 button.addEventListener('click',button1)
 
+function button3(){ 
+    let msgCifra = cipher.decode(offset, crypt);
+    encodeText.innerHTML = msgCifra
+}
 
-
-
-
-
-
-/*btnCrip.addEventListener('click', Cifra => {
-    Cifra.preventDefault()
-    const crypt = senhaString.value.trim()
-    const endecode = deslocamento.value
-    const encodeRes = btnCrip.encode(crypt, endecode)
-    CifraText.innerHTML += encodeRes
-})*/
-
-
-/*console.log(encode)*/
+button2.addEventListener('click',button3)
 
 
 
