@@ -1,4 +1,4 @@
-import cipher from './cipher.js';
+import cipher from './cipher.js'
 let senhaString = document.getElementById("senha1")
 let deslocamento = document.getElementById("desloc")
 let encodeText = document.getElementById("resultado1")
@@ -13,7 +13,7 @@ deslocamento.addEventListener('keyup', function(event) {
 } )
 
 function button1(){ 
-    let msgCifra = cipher.encode(crypt, offset)
+    let msgCifra = cipher.encode(crypt, offset);
     encodeText.innerHTML = msgCifra
 }
 
@@ -34,7 +34,7 @@ button.addEventListener('click',button1)
 })*/
 
 
-console.log(encode)
+/*console.log(encode)*/
 
 
 
